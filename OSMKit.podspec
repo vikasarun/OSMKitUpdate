@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
   spec.platform = :ios, "7.0"
   # spec.dependency "SpatialDBKit"
-  spec.dependency 'AFNetworking', '~> 2.6'
+  spec.dependency 'AFNetworking', '>= 2.6'
   spec.dependency 'TBXML', '~> 1.5'
   spec.dependency 'gtm-oauth', '~> 0.0'
   spec.dependency 'KissXML', '~> 5.0'
